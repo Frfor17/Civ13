@@ -506,7 +506,7 @@ menu "menu"
 window "mainwindow"
 	elem "mainwindow"
 		type = MAIN
-		size = 640x440
+		size = 800x440
 		anchor1 = -1,-1
 		anchor2 = -1,-1
 		background-color = #000000
@@ -533,7 +533,7 @@ window "mapwindow"
 	elem "mapwindow"
 		type = MAIN
 		pos = 476,0
-		size = 640x480
+		size = 800x480
 		anchor1 = -1,-1
 		anchor2 = -1,-1
 		background-color = none
@@ -546,7 +546,7 @@ window "mapwindow"
 	elem "map"
 		type = MAP
 		pos = 0,0
-		size = 640x480
+		size = 800x480
 		anchor1 = 0,0
 		anchor2 = 100,100
 		font-family = "sans-serif"
@@ -560,7 +560,7 @@ window "rpane"
 	elem "rpane"
 		type = MAIN
 		pos = 281,0
-		size = 640x480
+		size = 480x480
 		anchor1 = -1,-1
 		anchor2 = -1,-1
 		background-color = #271a0c
@@ -569,7 +569,7 @@ window "rpane"
 	elem "rpanewindow"
 		type = CHILD
 		pos = 0,30
-		size = 640x445
+		size = 480x445
 		anchor1 = 0,0
 		anchor2 = 100,100
 		saved-params = "splitter"
@@ -579,7 +579,7 @@ window "rpane"
 	elem "Title"
 		type = LABEL
 		pos = 0,0
-		size = 640x21
+		size = 480x20
 		anchor1 = 0,0
 		anchor2 = 100,4
 		font-family = "Bookman Old Style"
@@ -595,7 +595,7 @@ window "outputwindow"
 	elem "outputwindow"
 		type = MAIN
 		pos = 0,0
-		size = 640x480
+		size = 480480
 		anchor1 = -1,-1
 		anchor2 = -1,-1
 		background-color = #392611
@@ -607,7 +607,7 @@ window "outputwindow"
 		pos = 546,451
 		size = 92x20
 		anchor1 = 100,100
-		anchor2 = -1,-1
+		anchor2 = 0,0
 		font-family = "Book Antiqua"
 		font-size = 8
 		text-color = #e1e1d7
@@ -621,7 +621,7 @@ window "outputwindow"
 		pos = 502,451
 		size = 40x20
 		anchor1 = 100,100
-		anchor2 = -1,-1
+		anchor2 = 0,0
 		font-family = "Book Antiqua"
 		font-size = 8
 		text-color = #e1e1d7
@@ -646,13 +646,13 @@ window "outputwindow"
 	elem "output"
 		type = OUTPUT
 		pos = 0,0
-		size = 640x450
+		size = 480x450
 		anchor1 = 0,0
 		anchor2 = 100,100
 		font-family = "Book Antiqua,Bookman Old Style,@SimSun-ExtB"
 		font-size = 9
 		text-color = #e1e1d7
-		background-color = #8e8e8e
+		background-color = #392611
 		is-default = true
 		saved-params = "max-lines"
 		style = ".system {color:#ff0000;}"
@@ -662,7 +662,7 @@ window "infowindow"
 	elem "infowindow"
 		type = MAIN	
 		pos = 281,0
-		size = 640x480
+		size = 480x480
 		anchor1 = -1,-1
 		anchor2 = -1,-1
 		text-color = #e1e1d7
@@ -673,13 +673,13 @@ window "infowindow"
 	elem "info"
 		type = INFO
 		pos = 0,15
-		size = 640x465
+		size = 480x465
 		anchor1 = 0,5
 		anchor2 = 100,100
 		font-family = "Book Antiqua"
 		font-size = 8
 		text-color = #e1e1d7
-		background-color = #271a0c
+		background-color = #392611
 		is-default = true
 		drop-zone = false
 		saved-params = ""

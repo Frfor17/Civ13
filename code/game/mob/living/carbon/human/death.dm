@@ -460,9 +460,9 @@
 				for(var/l=1, l <= map.custom_company[stocky].len, l++)
 					if (map.custom_company[stocky][l][1] == src)
 						map.custom_company[stocky][l][1] = null
-	src << browse(null, "window=memory")
 
 	if (client)
+		src << browse(null, "window=memory")
 		client.movement_busy = FALSE
 
 	//Handle species-specific deaths.

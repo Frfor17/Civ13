@@ -508,7 +508,7 @@
 		var/limbcheck = user.targeted_organ
 		if (limbcheck == "random")
 			limbcheck = pick("l_arm","r_arm","l_hand","r_hand")
-		if(limbcheck in list("l_hand","r_hand","l_arm","r_arm") || user.werewolf)
+		if((limbcheck in list("l_hand","r_hand","l_arm","r_arm")) || user.werewolf)
 			var/obj/item/organ/external/affecting = target.get_organ(limbcheck)
 			if(!affecting)
 				to_chat(user, SPAN_NOTICE("[src] is missing that body part."))

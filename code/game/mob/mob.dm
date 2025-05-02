@@ -33,9 +33,8 @@
 		living_mob_list += src
 	..()
 
-
-	if (!isnewplayer(src))
-		src << browse(null, "window=playersetup;")
+	if (!isnewplayer(src) && !istype(src, /mob/dview) && src.client)
+		src.client << browse(null, "window=playersetup;")
 
 	spawn (10)
 		if (client)

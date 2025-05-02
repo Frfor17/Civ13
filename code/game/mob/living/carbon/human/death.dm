@@ -84,7 +84,7 @@
 							i[3]-=50
 		
 			if (MAP_ALLEYWAY)
-				if (civilization && civilization in map.scores)
+				if ((civilization && civilization) in map.scores)
 					switch (civilization)
 						if ("Yamaguchi-Gumi")
 							if (original_job)
@@ -104,7 +104,7 @@
 										map.scores["Yamaguchi-Gumi"] += 1
 
 			if (MAP_YELTSIN)
-				if (civilization && civilization in map.scores)
+				if ((civilization && civilization) in map.scores)
 					switch (civilization)
 						if ("Russian Army")
 							if (original_job)
@@ -130,7 +130,7 @@
 							to_chat(world, "<font color='red' size=4>The <b>Dutch Army</b> Commander has been killed!</font>")
 			
 			if (MAP_CAPITOL_HILL)
-				if (civilization && civilization in map.scores)
+				if ((civilization && civilization) in map.scores)
 					switch (civilization)
 						if ("National Guard")
 							map.scores["Militia"] += 1
@@ -218,7 +218,7 @@
 								to_chat(world, "<font color='red' size=2>A <b>Mujahideen Group Leader</b> has been killed!</font>")
 
 			if (MAP_SEKIGAHARA)
-				if (civilization && civilization in map.scores)
+				if ((civilization && civilization) in map.scores)
 					switch (civilization)
 						if ("Eastern Army")
 							switch (original_job.title)
@@ -265,7 +265,7 @@
 					to_chat(world, "<b><big>A Local Policeman has been killed! The local population is in shock and lowered their support for the warbands!</b></big>")
 		*/
 			if (MAP_THE_ART_OF_THE_DEAL)
-				if (civilization && civilization in map.scores)
+				if ((civilization && civilization) in map.scores)
 					if (civilization == "Paramedics")
 						map.scores[last_harmed.civilization] -= 500
 					else if (civilization == "Government")

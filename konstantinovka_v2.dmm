@@ -662,7 +662,8 @@
 /turf/floor/dirt,
 /area/caribbean)
 "zn" = (
-/obj/structure/window_frame/brickfull,
+/obj/structure/barricade/debris/brick,
+/obj/structure/barricade/debris/brick,
 /turf/floor/dirt,
 /area/caribbean)
 "zG" = (
@@ -10125,7 +10126,7 @@ zd
 zd
 zd
 ez
-zd
+Of
 zd
 zd
 zd
@@ -10327,7 +10328,7 @@ zd
 zd
 ez
 CM
-My
+hO
 My
 zd
 ez
@@ -10736,7 +10737,7 @@ ez
 ez
 zd
 zd
-zd
+Of
 zd
 zd
 zd
@@ -10937,7 +10938,7 @@ ez
 zd
 zd
 zd
-zd
+OY
 My
 My
 My
@@ -11139,7 +11140,7 @@ ez
 zd
 zd
 zd
-zd
+OY
 My
 My
 My
@@ -11337,12 +11338,12 @@ ez
 ez
 ez
 zd
-ez
+Yl
 zd
 zd
 zd
-zd
-My
+OY
+hO
 My
 My
 My
@@ -11539,7 +11540,7 @@ ez
 zd
 zd
 OY
-My
+hO
 My
 zd
 zd
@@ -12147,7 +12148,7 @@ zd
 zd
 ez
 zd
-zd
+Of
 ez
 ez
 zd
@@ -12349,7 +12350,7 @@ ez
 ez
 zd
 OY
-My
+hO
 My
 zd
 zd
@@ -12953,7 +12954,7 @@ zd
 zd
 zd
 zd
-zd
+Of
 zd
 zd
 zd
@@ -13155,7 +13156,7 @@ zd
 zd
 zd
 OY
-My
+hO
 My
 zd
 zd
@@ -13763,7 +13764,7 @@ zd
 ez
 zd
 zd
-zd
+Of
 zd
 zd
 zd
@@ -13965,7 +13966,7 @@ zd
 ez
 zd
 OY
-My
+hO
 My
 zd
 zd
@@ -15198,9 +15199,9 @@ zd
 zd
 zd
 zd
-zd
-zd
+gW
 zn
+FW
 yy
 zd
 zd
@@ -15404,7 +15405,7 @@ gW
 FW
 FW
 FW
-gW
+zd
 zd
 zd
 zd
@@ -15606,7 +15607,7 @@ Kj
 FW
 FW
 FW
-Kj
+yy
 ez
 zd
 ez
@@ -15808,7 +15809,7 @@ Ds
 FW
 FW
 FW
-Kj
+zd
 zd
 zd
 zd
@@ -16007,10 +16008,10 @@ ez
 zd
 zd
 yy
+FW
 zd
-gW
-Kj
-Kj
+yy
+zd
 zd
 zd
 zd

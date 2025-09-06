@@ -626,6 +626,10 @@
 /obj/structure/closet/cabinet,
 /turf/floor/wood/alt/three,
 /area/caribbean)
+"nb" = (
+/obj/structure/simple_door/wood,
+/turf/floor/wood/ship,
+/area/caribbean)
 "nc" = (
 /obj/structure/cell_tower,
 /turf/floor/dirt,
@@ -2341,6 +2345,10 @@
 /obj/item/weapon/reagent_containers/food/drinks/teapot,
 /turf/floor/wood/alt/three,
 /area/caribbean)
+"Yy" = (
+/obj/structure/simple_door/wood,
+/turf/floor/wood/alt/three,
+/area/caribbean)
 "YK" = (
 /obj/structure/bed/chair/wood/wings,
 /turf/floor/wood/ship,
@@ -2416,6 +2424,10 @@
 "ZU" = (
 /obj/item/weapon/stool/wood,
 /turf/floor/wood/ship,
+/area/caribbean)
+"ZV" = (
+/obj/structure/simple_door/wood,
+/turf/floor/plating/road,
 /area/caribbean)
 
 (1,1,1) = {"
@@ -3821,7 +3833,7 @@ zz
 zz
 zz
 zz
-AX
+Yy
 AX
 AX
 AX
@@ -31497,7 +31509,7 @@ TC
 rk
 xC
 xC
-xC
+nb
 RZ
 RZ
 RZ
@@ -31695,7 +31707,7 @@ Ex
 DR
 yW
 DR
-xC
+nb
 xC
 ms
 xC
@@ -32288,11 +32300,11 @@ it
 hq
 hq
 RZ
-xC
+nb
 xC
 ms
 xC
-xC
+nb
 RZ
 yW
 DR
@@ -34119,11 +34131,11 @@ DR
 fZ
 pY
 RZ
-xC
+nb
 xC
 ms
 xC
-xC
+nb
 RZ
 oR
 oR
@@ -35318,11 +35330,11 @@ DR
 DR
 RZ
 RZ
-xC
+nb
 xC
 ms
 xC
-xC
+nb
 DR
 RZ
 DR
@@ -36348,7 +36360,7 @@ st
 Ob
 zz
 zz
-zz
+ZV
 zz
 XL
 RZ
@@ -36721,7 +36733,7 @@ oR
 oR
 XK
 re
-xC
+nb
 TC
 TC
 XK
@@ -36732,7 +36744,7 @@ re
 TC
 TC
 SN
-xC
+nb
 TC
 SN
 TC
@@ -36750,7 +36762,7 @@ st
 st
 st
 st
-AX
+Yy
 st
 st
 st
@@ -37152,10 +37164,10 @@ oR
 Gl
 AX
 AX
+Yy
 AX
 AX
-AX
-AX
+Yy
 AX
 Gl
 oR
@@ -37342,7 +37354,7 @@ xC
 Kl
 Xl
 xC
-xC
+nb
 RZ
 RZ
 DR
@@ -37539,7 +37551,7 @@ SN
 CH
 xC
 xC
-xC
+nb
 xC
 Kl
 Kl
@@ -37933,7 +37945,7 @@ RZ
 XL
 XK
 TC
-xC
+nb
 re
 TC
 XK
@@ -38160,11 +38172,11 @@ RZ
 XL
 iW
 st
-AX
+Yy
 st
 st
 st
-AX
+Yy
 st
 st
 st
@@ -39173,7 +39185,7 @@ st
 st
 st
 st
-AX
+Yy
 st
 st
 st
@@ -39348,7 +39360,7 @@ it
 XK
 re
 TC
-xC
+nb
 re
 TC
 XK
@@ -40576,9 +40588,9 @@ AX
 pM
 AX
 AX
-AX
-XL
-Bo
+Yy
+DR
+DK
 DR
 RZ
 oR
@@ -40762,7 +40774,7 @@ oR
 XK
 TC
 TC
-xC
+nb
 TC
 re
 XK
@@ -41381,7 +41393,7 @@ it
 st
 st
 st
-AX
+Yy
 st
 st
 st
@@ -41796,13 +41808,13 @@ RZ
 pY
 RZ
 RZ
-xC
-xC
-ms
-xC
+nb
 xC
 ms
+nb
 xC
+ms
+nb
 xC
 ms
 TC
@@ -42187,11 +42199,11 @@ RZ
 RZ
 pY
 RZ
-xC
+nb
 xC
 ms
 xC
-xC
+nb
 RZ
 RZ
 pY
@@ -42410,7 +42422,7 @@ re
 SN
 XK
 TC
-xC
+nb
 XK
 RZ
 "}

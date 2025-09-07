@@ -438,6 +438,10 @@
 /obj/structure/roof_support,
 /turf/floor/plating/road,
 /area/caribbean)
+"iY" = (
+/obj/map_metadata/konstantinovka,
+/turf/floor/dirt,
+/area/caribbean)
 "jh" = (
 /obj/structure/window/barrier/sandbag{
 	dir = 4
@@ -2630,7 +2634,7 @@ oR
 oR
 oR
 oR
-oR
+iY
 "}
 (2,1,1) = {"
 oR

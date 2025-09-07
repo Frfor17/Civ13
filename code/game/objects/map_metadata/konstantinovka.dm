@@ -19,7 +19,7 @@
 
 	faction_distribution_coeffs = list(RUSSIAN = 0.5, UKRAINIAN = 0.5)
 	battle_name = "battle for the town"
-	mission_start_message = "<font size=4>The <b>Russia</b> is holding the town. <b>IDF</b> troops must capture the Konstantinovka (SE corner) within <b>40 minutes</b>!</font>"
+	mission_start_message = "<font size=4>The <b>Defensive side</b> is holding the town. <b>Attacking side</b> troops must capture the Konstantinovka (SE corner) within <b>40 minutes</b>!</font>"
 	faction1 = RUSSIAN
 	faction2 = UKRAINIAN
 	valid_weather_types = list(WEATHER_NONE, WEATHER_EXTREME)

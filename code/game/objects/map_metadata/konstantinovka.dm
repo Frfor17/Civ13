@@ -28,28 +28,28 @@
 	artillery_count = 3
 	valid_artillery = list("Explosive")
 
-/obj/map_metadata/arab_town/job_enabled_specialcheck(var/datum/job/J)
+/obj/map_metadata/konstantinovka/job_enabled_specialcheck(var/datum/job/J)
 	..()
 	if (J.is_modernday == TRUE && (istype(J, /datum/job/american/idf) || istype(J, /datum/job/arab/hezbollah)))
 		. = TRUE
 	else
 		. = FALSE
 
-/obj/map_metadata/arab_town/faction1_can_cross_blocks()
+/obj/map_metadata/konstantinovka/faction1_can_cross_blocks()
 	return (processes.ticker.playtime_elapsed >= 30000 || admin_ended_all_grace_periods)
 
-/obj/map_metadata/arab_town/faction2_can_cross_blocks()
+/obj/map_metadata/konstantinovka/faction2_can_cross_blocks()
 	return (processes.ticker.playtime_elapsed >= 3000 || admin_ended_all_grace_periods)
 
 
-/obj/map_metadata/arab_town/roundend_condition_def2name(define)
+/obj/map_metadata/konstantinovka/roundend_condition_def2name(define)
 	..()
 	switch (define)
 		if (RUSSIAN)
 			return "Russia"
 		if (UKRAINIAN)
 			return "Ukraine"
-/obj/map_metadata/arab_town/roundend_condition_def2army(define)
+/obj/map_metadata/konstantinovka/roundend_condition_def2army(define)
 	..()
 	switch (define)
 		if (RUSSIAN)
@@ -57,7 +57,7 @@
 		if (UKRAINIAN)
 			return "Ukraine"
 
-/obj/map_metadata/arab_town/army2name(army)
+/obj/map_metadata/konstantinovka/army2name(army)
 	..()
 	switch (army)
 		if ("Russia")
@@ -66,7 +66,7 @@
 			return "Ukraine"
 
 
-/obj/map_metadata/arab_town/cross_message(faction)
+/obj/map_metadata/konstantinovka/cross_message(faction)
 	if (faction == UKRAINIAN)
 		return "<font size = 4>The Ukraine may now cross the invisible wall!</font>"
 	else if (faction == RUSSIAN)
@@ -74,7 +74,7 @@
 	else
 		return ""
 
-/obj/map_metadata/arab_town/reverse_cross_message(faction)
+/obj/map_metadata/konstantinovka/reverse_cross_message(faction)
 	if (faction == UKRAINIAN)
 		return "<span class = 'userdanger'>The Ukraine may no longer cross the invisible wall!</span>"
 	else if (faction == RUSSIAN)

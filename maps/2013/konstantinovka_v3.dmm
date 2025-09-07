@@ -714,6 +714,14 @@
 /obj/structure/sign/map_board,
 /turf/floor/trench,
 /area/caribbean)
+"oY" = (
+/obj/roof,
+/obj/covers/wood/alt/eleven,
+/obj/effect/landmark{
+	name = "JoinLateRN"
+	},
+/turf/floor/trench,
+/area/caribbean)
 "pa" = (
 /obj/structure/table/modern/table,
 /obj/item/clothing/gloves/oven,
@@ -22774,7 +22782,7 @@ bR
 Bf
 rh
 Mt
-Jo
+oY
 Jo
 Jo
 gs
@@ -22976,7 +22984,7 @@ hx
 oR
 rh
 gU
-Jo
+oY
 Jo
 oX
 QN

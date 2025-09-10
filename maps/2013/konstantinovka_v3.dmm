@@ -20,6 +20,12 @@
 /obj/roof/wood,
 /turf/floor/dirt,
 /area/caribbean)
+"aT" = (
+/obj/structure/closet/crate/sandbags,
+/obj/roof/concrete,
+/obj/structure/lamp/lamp_big/alwayson,
+/turf/floor/plating/road,
+/area/caribbean)
 "bg" = (
 /obj/structure/window/barrier/sandbag{
 	dir = 1
@@ -54,6 +60,7 @@
 "bQ" = (
 /obj/structure/closet/cabinet,
 /obj/roof/wood,
+/obj/structure/lamp/lamp_small/alwayson,
 /turf/floor/wood/ship,
 /area/caribbean)
 "bR" = (
@@ -85,6 +92,11 @@
 /obj/roof/concrete,
 /turf/floor/wood/alt/three,
 /area/caribbean)
+"cv" = (
+/obj/roof/concrete,
+/obj/structure/lamp/lamp_big/alwayson,
+/turf/floor/wood/alt/three,
+/area/caribbean)
 "cw" = (
 /obj/structure/window/barrier/sandbag{
 	dir = 1
@@ -113,6 +125,11 @@
 /obj/covers/wood_wall/log,
 /obj/roof/wood,
 /turf/floor/dirt,
+/area/caribbean)
+"cM" = (
+/obj/roof/wood,
+/obj/structure/lamp/lamp_big/broken,
+/turf/floor/wood/alt/three,
 /area/caribbean)
 "cW" = (
 /obj/effects/premadevehicles/tank/t72,
@@ -264,6 +281,11 @@
 	},
 /obj/item/weapon/foldable/atgm/kornet,
 /turf/floor/trench,
+/area/caribbean)
+"ft" = (
+/obj/roof/wood,
+/obj/structure/lamp/lamp_small/alwayson,
+/turf/floor/wood/alt/three,
 /area/caribbean)
 "fw" = (
 /obj/structure/refinery/biofuel,
@@ -654,6 +676,7 @@
 /obj/structure/table/rack/shelf,
 /obj/item/stack/farming/seeds/cabbage,
 /obj/roof/wood,
+/obj/structure/lamp/lamp_big/alwayson,
 /turf/floor/wood/alt/three,
 /area/caribbean)
 "lW" = (
@@ -689,6 +712,7 @@
 /obj/structure/table/modern/table,
 /obj/item/weapon/newspaper,
 /obj/roof/wood,
+/obj/item/flashlight/lamp/littlelamp/desklamp,
 /turf/floor/wood/ship,
 /area/caribbean)
 "mV" = (
@@ -1096,6 +1120,11 @@
 /obj/covers/roads/dirt,
 /turf/floor/dirt,
 /area/caribbean)
+"uM" = (
+/obj/roof/wood,
+/obj/item/flashlight/lamp/oldlamp,
+/turf/floor/wood/alt/three,
+/area/caribbean)
 "vf" = (
 /obj/structure/wild/tree/dead_tree/destroyed,
 /turf/floor/grass,
@@ -1127,6 +1156,10 @@
 /area/caribbean)
 "vR" = (
 /obj/roof/wood,
+/turf/floor/dirt,
+/area/caribbean)
+"vW" = (
+/obj/structure/lamp/streetlight/alwayson,
 /turf/floor/dirt,
 /area/caribbean)
 "vX" = (
@@ -1353,6 +1386,11 @@
 "AX" = (
 /obj/roof/wood,
 /turf/floor/wood/alt/three,
+/area/caribbean)
+"Bc" = (
+/obj/roof/wood,
+/obj/structure/lamp/lamp_small/alwayson,
+/turf/floor/wood/ship,
 /area/caribbean)
 "Bf" = (
 /obj/structure/wild/tree/dead_tree/destroyed,
@@ -1884,6 +1922,10 @@
 	},
 /turf/floor/trench,
 /area/caribbean)
+"KM" = (
+/obj/structure/lamp/streetlight/alwayson,
+/turf/floor/grass,
+/area/caribbean)
 "KQ" = (
 /obj/covers/roads/dirt,
 /obj/covers/wood/stairs,
@@ -2111,6 +2153,11 @@
 	},
 /turf/floor/dirt,
 /area/caribbean)
+"OT" = (
+/obj/roof/wood,
+/obj/structure/lamp/lamp_big/alwayson,
+/turf/floor/wood/alt/three,
+/area/caribbean)
 "OY" = (
 /obj/item/weapon/reagent_containers/food/snacks/grown/wheat,
 /turf/floor/dirt/ploughed/fertile,
@@ -2198,6 +2245,12 @@
 /mob/living/simple_animal/chicken,
 /turf/floor/dirt,
 /area/caribbean)
+"Qq" = (
+/obj/structure/closet/crate/ww2/mortar_shells,
+/obj/roof/concrete,
+/obj/structure/lamp/lamp_big/alwayson,
+/turf/floor/plating/road,
+/area/caribbean)
 "Qy" = (
 /obj/structure/window/barrier/sandbag{
 	dir = 4
@@ -2228,6 +2281,7 @@
 /obj/covers/wood/alt/eleven,
 /obj/structure/table/modern/table,
 /obj/structure/computer/nopower/platoontracker,
+/obj/structure/lamp/lamp_small/alwayson/red,
 /turf/floor/trench,
 /area/caribbean)
 "QS" = (
@@ -2424,9 +2478,16 @@
 /obj/roof/wood,
 /turf/floor/wood/alt/three,
 /area/caribbean)
+"UH" = (
+/obj/structure/table/modern/table,
+/obj/roof/wood,
+/obj/item/flashlight/lamp/littlelamp/desklamp,
+/turf/floor/wood/alt/three,
+/area/caribbean)
 "UO" = (
 /obj/roof/wood,
 /obj/structure/table/modern/table,
+/obj/structure/lamp/lamp_big/alwayson,
 /turf/floor/trench,
 /area/caribbean)
 "UQ" = (
@@ -2447,6 +2508,7 @@
 /obj/structure/table/rack/shelf,
 /obj/item/weapon/weldingtool,
 /obj/roof/wood,
+/obj/structure/lamp/lamp_small/alwayson/red,
 /turf/floor/plating/road,
 /area/caribbean)
 "Va" = (
@@ -2677,6 +2739,7 @@
 /obj/structure/table/rack/shelf,
 /obj/item/weapon/reagent_containers/food/snacks/grown/carrot,
 /obj/roof/wood,
+/obj/structure/lamp/lamp_big/alwayson,
 /turf/floor/wood/alt/three,
 /area/caribbean)
 "ZR" = (
@@ -3500,7 +3563,7 @@ nN
 nN
 EH
 nN
-nN
+Qq
 lZ
 ZB
 Ct
@@ -3709,7 +3772,7 @@ tW
 HM
 ZB
 cq
-ZB
+cv
 lZ
 oR
 oR
@@ -4510,14 +4573,14 @@ re
 re
 Nq
 qW
-Nq
+aT
 lZ
 HM
 ZB
 ZB
 ZB
 cq
-ZB
+cv
 lZ
 oR
 oR
@@ -30565,7 +30628,7 @@ RZ
 RZ
 RZ
 RZ
-oR
+vW
 oR
 oR
 XL
@@ -31368,7 +31431,7 @@ oR
 XL
 XL
 xm
-oR
+vW
 RZ
 RZ
 RZ
@@ -31984,7 +32047,7 @@ DR
 nb
 xC
 ms
-xC
+Bc
 yR
 DR
 XL
@@ -32779,7 +32842,7 @@ RZ
 yR
 CH
 xC
-xC
+Bc
 uF
 oR
 bX
@@ -33191,7 +33254,7 @@ XL
 RZ
 RZ
 DR
-XL
+KM
 oR
 oR
 Bf
@@ -34400,7 +34463,7 @@ RZ
 DR
 oR
 XL
-XL
+KM
 DR
 fZ
 pY
@@ -34610,7 +34673,7 @@ oR
 yR
 xC
 xC
-xC
+Bc
 yR
 RZ
 hq
@@ -35809,7 +35872,7 @@ it
 yR
 CH
 xC
-xC
+Bc
 ev
 oR
 oR
@@ -36622,7 +36685,7 @@ oR
 oR
 oR
 XL
-XL
+KM
 DR
 DR
 oR
@@ -37425,7 +37488,7 @@ zc
 xC
 Kl
 Kl
-xC
+Bc
 yR
 oR
 oR
@@ -37615,7 +37678,7 @@ yR
 xC
 ms
 xC
-xC
+Bc
 yR
 oR
 oR
@@ -37639,10 +37702,10 @@ XL
 XL
 Gl
 AX
-AX
+cM
 bv
 we
-AX
+OT
 bv
 AX
 bv
@@ -38250,7 +38313,7 @@ AX
 AX
 AX
 AX
-AX
+ft
 bv
 oR
 RZ
@@ -38411,7 +38474,7 @@ XL
 XL
 oR
 oR
-oR
+vW
 oR
 RZ
 RZ
@@ -38630,7 +38693,7 @@ RZ
 RZ
 RZ
 oR
-XL
+KM
 RZ
 RZ
 RZ
@@ -38847,7 +38910,7 @@ DR
 DR
 RZ
 RZ
-oR
+vW
 oR
 Gl
 pn
@@ -39228,7 +39291,7 @@ qH
 oR
 oR
 oR
-oR
+vW
 oR
 RZ
 RZ
@@ -39243,7 +39306,7 @@ RZ
 RZ
 oR
 oR
-oR
+vW
 oR
 oR
 XL
@@ -40269,7 +40332,7 @@ AX
 AX
 AX
 AX
-AX
+OT
 bv
 oR
 XL
@@ -40444,7 +40507,7 @@ Zw
 ZU
 xC
 xC
-xC
+Bc
 uF
 oR
 oR
@@ -40655,7 +40718,7 @@ RZ
 XL
 XL
 bv
-AX
+uM
 PK
 rw
 AX
@@ -40867,7 +40930,7 @@ DR
 DK
 DR
 RZ
-oR
+vW
 oR
 oR
 bv
@@ -41060,7 +41123,7 @@ XL
 oR
 bv
 rd
-BC
+UH
 BC
 AX
 wp
@@ -42286,7 +42349,7 @@ cC
 RZ
 yR
 fh
-xC
+Bc
 zc
 xC
 xC
@@ -43087,7 +43150,7 @@ RZ
 RZ
 oR
 it
-oR
+vW
 RZ
 it
 XL

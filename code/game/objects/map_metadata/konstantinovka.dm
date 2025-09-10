@@ -8,20 +8,20 @@
 
 	faction_organization = list(
 		RUSSIAN,
-		UKRAINIAN)
+		AMERICAN)
 
 	roundend_condition_sides = list(
 		list(RUSSIAN) = /area/caribbean/arab,
-		list(UKRAINIAN) = /area/caribbean/british
+		list(AMERICAN) = /area/caribbean/british
 		)
 	age = "2023"
 	ordinal_age = 8
 
-	faction_distribution_coeffs = list(RUSSIAN = 0.5, UKRAINIAN = 0.5)
+	faction_distribution_coeffs = list(RUSSIAN = 0.5, AMERICAN = 0.5)
 	battle_name = "battle for the town"
 	mission_start_message = "<font size=4>The <b>Defensive side</b> is holding the town. <b>Attacking side</b> troops must capture the Konstantinovka (SE corner) within <b>40 minutes</b>!</font>"
 	faction1 = RUSSIAN
-	faction2 = UKRAINIAN
+	faction2 = AMERICAN
 	valid_weather_types = list(WEATHER_NONE, WEATHER_EXTREME)
 	songs = list(
 		"I am soldier - by 5'Nizza - (Cover by Carla's Dreams):1" = 'sound/music/i_am_soldier_cover_by_carlas_dreams.ogg',)
@@ -46,37 +46,37 @@
 	..()
 	switch (define)
 		if (RUSSIAN)
-			return "Russia"
-		if (UKRAINIAN)
-			return "Ukraine"
+			return "Defensive side"
+		if (AMERICAN)
+			return "Attacking side"
 /obj/map_metadata/konstantinovka/roundend_condition_def2army(define)
 	..()
 	switch (define)
 		if (RUSSIAN)
-			return "Russia"
-		if (UKRAINIAN)
-			return "Ukraine"
+			return "Defensive side"
+		if (AMERICAN)
+			return "Attacking side"
 
 /obj/map_metadata/konstantinovka/army2name(army)
 	..()
 	switch (army)
-		if ("Russia")
-			return "Russia"
-		if ("Ukraine")
-			return "Ukraine"
+		if ("Defensive side")
+			return "Defensive side"
+		if ("Attacking side")
+			return "Attacking side"
 
 
 /obj/map_metadata/konstantinovka/cross_message(faction)
-	if (faction == UKRAINIAN)
-		return "<font size = 4>The Ukraine may now cross the invisible wall!</font>"
+	if (faction == AMERICAN)
+		return "<font size = 4>The Attacking side may now cross the invisible wall!</font>"
 	else if (faction == RUSSIAN)
 		return ""
 	else
 		return ""
 
 /obj/map_metadata/konstantinovka/reverse_cross_message(faction)
-	if (faction == UKRAINIAN)
-		return "<span class = 'userdanger'>The Ukraine may no longer cross the invisible wall!</span>"
+	if (faction == AMERICAN)
+		return "<span class = 'userdanger'>The Attacking side may no longer cross the invisible wall!</span>"
 	else if (faction == RUSSIAN)
 		return ""
 	else
@@ -90,14 +90,14 @@ var/no_loop_russian = FALSE
 		if (win_condition_spam_check)
 			return FALSE
 		ticker.finished = TRUE
-		var/message = "The Russia has managed to defend Konstantinovka!"
+		var/message = "The Defensive side has managed to defend Konstantinovka!"
 		world << "<font size = 4><span class = 'notice'>[message]</span></font>"
 		show_global_battle_report(null)
 		win_condition_spam_check = TRUE
 		return FALSE
 	if ((current_winner && current_loser && world.time > next_win) && no_loop_russian == FALSE)
 		ticker.finished = TRUE
-		var/message = "The Ukraine has captured Konstantinovka! Russia retreats!"
+		var/message = "The Attacking side has captured Konstantinovka! Russia retreats!"
 		world << "<font size = 4><span class = 'notice'>[message]</span></font>"
 		show_global_battle_report(null)
 		win_condition_spam_check = TRUE
@@ -107,7 +107,7 @@ var/no_loop_russian = FALSE
 	else if (win_condition.check(typesof(roundend_condition_sides[roundend_condition_sides[2]]), roundend_condition_sides[1], roundend_condition_sides[2], 1.33, TRUE))
 		if (!win_condition.check(typesof(roundend_condition_sides[roundend_condition_sides[1]]), roundend_condition_sides[2], roundend_condition_sides[1], 1.33))
 			if (last_win_condition != win_condition.hash)
-				current_win_condition = "The Ukraine controls the Konstantinovka! They will win in {time} minutes."
+				current_win_condition = "The Attacking side controls the Konstantinovka! They will win in {time} minutes."
 				next_win = world.time +  short_win_time(ARAB)
 				announce_current_win_condition()
 				current_winner = roundend_condition_def2army(roundend_condition_sides[1][1])
@@ -116,7 +116,7 @@ var/no_loop_russian = FALSE
 	else if (win_condition.check(typesof(roundend_condition_sides[roundend_condition_sides[2]]), roundend_condition_sides[1], roundend_condition_sides[2], 1.01, TRUE))
 		if (!win_condition.check(typesof(roundend_condition_sides[roundend_condition_sides[1]]), roundend_condition_sides[2], roundend_condition_sides[1], 1.01))
 			if (last_win_condition != win_condition.hash)
-				current_win_condition = "The Ukraine controls the Konstantinovka! They will win in {time} minutes."
+				current_win_condition = "The Attacking side controls the Konstantinovka! They will win in {time} minutes."
 				next_win = world.time +  short_win_time(ARAB)
 				announce_current_win_condition()
 				current_winner = roundend_condition_def2army(roundend_condition_sides[1][1])
@@ -125,7 +125,7 @@ var/no_loop_russian = FALSE
 	else if (win_condition.check(typesof(roundend_condition_sides[roundend_condition_sides[1]]), roundend_condition_sides[2], roundend_condition_sides[1], 1.33, TRUE))
 		if (!win_condition.check(typesof(roundend_condition_sides[roundend_condition_sides[2]]), roundend_condition_sides[1], roundend_condition_sides[2], 1.33))
 			if (last_win_condition != win_condition.hash)
-				current_win_condition = "The Ukraine controls the Konstantinovka! They will win in {time} minutes."
+				current_win_condition = "The Attacking side controls the Konstantinovka! They will win in {time} minutes."
 				next_win = world.time +  short_win_time(AMERICAN)
 				announce_current_win_condition()
 				current_winner = roundend_condition_def2army(roundend_condition_sides[2][1])
@@ -134,14 +134,14 @@ var/no_loop_russian = FALSE
 	else if (win_condition.check(typesof(roundend_condition_sides[roundend_condition_sides[1]]), roundend_condition_sides[2], roundend_condition_sides[1], 1.01, TRUE))
 		if (!win_condition.check(typesof(roundend_condition_sides[roundend_condition_sides[2]]), roundend_condition_sides[1], roundend_condition_sides[2], 1.01))
 			if (last_win_condition != win_condition.hash)
-				current_win_condition = "The Ukraine controls the Konstantinovka! They will win in {time} minutes."
+				current_win_condition = "The Attacking side controls the Konstantinovka! They will win in {time} minutes."
 				next_win = world.time + short_win_time(AMERICAN)
 				announce_current_win_condition()
 				current_winner = roundend_condition_def2army(roundend_condition_sides[2][1])
 				current_loser = roundend_condition_def2army(roundend_condition_sides[1][1])
 	else
 		if (current_win_condition != no_winner && current_winner && current_loser)
-			world << "<font size = 3>The Russia has recaptured Konstantinovka!</font>"
+			world << "<font size = 3>The Defensive side has recaptured Konstantinovka!</font>"
 			current_winner = null
 			current_loser = null
 		next_win = -1

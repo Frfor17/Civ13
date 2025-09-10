@@ -71,6 +71,13 @@
 /obj/structure/grille/fence/picket,
 /turf/floor/grass,
 /area/caribbean)
+"ca" = (
+/obj/roof/wood,
+/obj/effect/landmark{
+	name = "JoinLateRNCap"
+	},
+/turf/floor/trench,
+/area/caribbean)
 "cc" = (
 /obj/structure/wild/tallgrass2,
 /obj/structure/window/barrier/sandbag{
@@ -131,9 +138,15 @@
 /obj/structure/lamp/lamp_big/broken,
 /turf/floor/wood/alt/three,
 /area/caribbean)
-"cW" = (
-/obj/effects/premadevehicles/tank/t72,
+"cQ" = (
+/obj/roof/wood,
+/obj/item/weapon/newspaper,
 /turf/floor/trench,
+/area/caribbean)
+"cW" = (
+/obj/covers/roads/dirt,
+/obj/item/weapon/clayshards,
+/turf/floor/dirt,
 /area/caribbean)
 "cZ" = (
 /obj/structure/wild/tree/dead_tree,
@@ -186,6 +199,13 @@
 /obj/item/weapon/reagent_containers/food/snacks/grown/carrot,
 /turf/floor/dirt/ploughed/flooded,
 /area/caribbean)
+"eg" = (
+/obj/roof/wood,
+/obj/effect/landmark{
+	name = "JoinLateRN"
+	},
+/turf/floor/trench,
+/area/caribbean)
 "ei" = (
 /obj/structure/window/barrier/sandbag{
 	dir = 1
@@ -233,6 +253,10 @@
 	},
 /obj/structure/window/barrier/sandbag,
 /turf/floor/trench,
+/area/caribbean)
+"eU" = (
+/obj/effects/premadevehicles/apc/bradley/green,
+/turf/floor/dirt,
 /area/caribbean)
 "eZ" = (
 /obj/structure/window/barrier/sandbag{
@@ -401,6 +425,11 @@
 	},
 /obj/structure/window/barrier/sandbag/incomplete,
 /turf/floor/dirt,
+/area/caribbean)
+"gS" = (
+/obj/roof/wood,
+/obj/item/weapon/doctor_handbook,
+/turf/floor/trench,
 /area/caribbean)
 "gU" = (
 /obj/roof,
@@ -708,6 +737,10 @@
 /obj/roof/wood,
 /turf/floor/wood/ship,
 /area/caribbean)
+"mC" = (
+/obj/effects/premadevehicles/apc/bradley/green,
+/turf/floor/grass,
+/area/caribbean)
 "mQ" = (
 /obj/structure/table/modern/table,
 /obj/item/weapon/newspaper,
@@ -800,6 +833,14 @@
 "nY" = (
 /obj/structure/wild/tree/live_tree,
 /turf/floor/grass,
+/area/caribbean)
+"of" = (
+/obj/roof/wood,
+/obj/structure/roof_support/admin,
+/obj/effect/landmark{
+	name = "JoinLateRN"
+	},
+/turf/floor/trench,
 /area/caribbean)
 "og" = (
 /obj/structure/window/barrier/sandbag{
@@ -1261,6 +1302,10 @@
 /obj/roof/wood,
 /turf/floor/grass,
 /area/caribbean)
+"xY" = (
+/obj/item/weapon/generic_MRE_trash,
+/turf/floor/dirt,
+/area/caribbean)
 "ya" = (
 /obj/structure/window/barrier/sandbag{
 	dir = 1
@@ -1665,6 +1710,11 @@
 "Ga" = (
 /turf/floor/beach/water/deep/swamp,
 /area/caribbean)
+"Gb" = (
+/obj/roof/wood,
+/obj/item/gunbox/specialist,
+/turf/floor/trench,
+/area/caribbean)
 "Gi" = (
 /obj/structure/closet/cabinet,
 /obj/roof/wood,
@@ -2063,6 +2113,10 @@
 /obj/roof/wood,
 /turf/floor/plating/road,
 /area/caribbean)
+"NF" = (
+/obj/item/weapon/newspaper,
+/turf/floor/dirt,
+/area/caribbean)
 "NH" = (
 /obj/structure/wild/tallgrass2,
 /turf/floor/trench,
@@ -2312,6 +2366,14 @@
 /obj/structure/wild/tree/live_tree,
 /turf/floor/dirt,
 /area/caribbean)
+"Ry" = (
+/obj/roof/wood,
+/obj/structure/roof_support,
+/obj/effect/landmark{
+	name = "JoinLateRN"
+	},
+/turf/floor/trench,
+/area/caribbean)
 "RE" = (
 /obj/roof,
 /obj/structure/window/barrier/sandbag{
@@ -2338,6 +2400,10 @@
 /area/caribbean)
 "RZ" = (
 /obj/covers/roads/dirt,
+/turf/floor/dirt,
+/area/caribbean)
+"Sa" = (
+/obj/item/weapon/clayshards,
 /turf/floor/dirt,
 /area/caribbean)
 "So" = (
@@ -2466,6 +2532,12 @@
 /obj/item/weapon/reagent_containers/food/snacks/grown/wheat,
 /obj/item/weapon/reagent_containers/food/snacks/grown/wheat,
 /turf/floor/dirt,
+/area/caribbean)
+"Up" = (
+/obj/roof/wood,
+/obj/item/weapon/gun/launcher/rocket/single_shot/m72law,
+/obj/item/weapon/gun/launcher/rocket/single_shot/m72law,
+/turf/floor/trench,
 /area/caribbean)
 "Uq" = (
 /obj/structure/wild/tallgrass2,
@@ -17531,7 +17603,7 @@ mV
 rz
 rz
 mV
-XL
+mC
 oR
 xm
 oR
@@ -17732,7 +17804,7 @@ oR
 vR
 vR
 vR
-IV
+vR
 XL
 oR
 Bf
@@ -18124,12 +18196,12 @@ oR
 oR
 XL
 gQ
-QI
-QI
-QI
+Up
+Up
+Up
 qy
-oR
-oR
+Sa
+xY
 RZ
 Ex
 RZ
@@ -18327,8 +18399,8 @@ oR
 XL
 JK
 Yi
-cj
-QI
+of
+eg
 qy
 oR
 oR
@@ -18339,7 +18411,7 @@ vR
 TC
 vR
 vR
-oR
+eU
 XL
 oR
 oR
@@ -18529,8 +18601,8 @@ oR
 XL
 JK
 Yi
-QI
-QI
+eg
+eg
 qy
 oR
 oR
@@ -19136,11 +19208,11 @@ XL
 JK
 yI
 QI
-QI
+cQ
 vX
 up
 up
-RZ
+cW
 Ex
 RZ
 oR
@@ -19337,8 +19409,8 @@ oR
 oR
 JK
 yI
-QI
-dc
+eg
+Ry
 qy
 oR
 Ww
@@ -19346,7 +19418,7 @@ RZ
 Ex
 RZ
 oR
-oR
+xY
 oR
 oR
 oR
@@ -19539,8 +19611,8 @@ oR
 oR
 JK
 Yp
-QI
-QI
+eg
+eg
 qy
 oR
 oR
@@ -19741,8 +19813,8 @@ oR
 oR
 JK
 So
-cj
-QI
+of
+eg
 qy
 oR
 oR
@@ -19942,16 +20014,16 @@ oR
 oR
 oR
 JK
-QI
-QI
-QI
+gS
+Gb
+Gb
 qy
 oR
-oR
+NF
 Fx
 bR
 oR
-oR
+NF
 oR
 oR
 oR
@@ -21163,7 +21235,7 @@ RV
 QI
 QI
 RV
-QI
+ca
 ya
 oR
 oR
@@ -21365,7 +21437,7 @@ md
 de
 QI
 QI
-QI
+ca
 ya
 oR
 oR
@@ -27549,7 +27621,7 @@ bA
 sK
 sK
 sK
-cW
+sK
 oR
 oR
 oR

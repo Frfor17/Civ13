@@ -24,7 +24,7 @@
 	faction2 = UKRAINIAN
 	valid_weather_types = list(WEATHER_NONE, WEATHER_EXTREME)
 	songs = list(
-		"Al-Qussam:1" = 'sound/music/i_am_soldier_cover_by_carlas_dreams.ogg',)
+		"I am soldier - by 5'Nizza - (Cover by Carla's Dreams):1" = 'sound/music/i_am_soldier_cover_by_carlas_dreams.ogg',)
 	artillery_count = 3
 	valid_artillery = list("Explosive")
 

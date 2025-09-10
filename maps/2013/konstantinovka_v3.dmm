@@ -38,7 +38,6 @@
 /turf/floor/dirt,
 /area/caribbean)
 "bv" = (
-/obj/structure/closet/cabinet,
 /obj/roof/wood,
 /turf/floor/wood/alt/three,
 /area/caribbean)
@@ -47,6 +46,11 @@
 	dir = 4
 	},
 /turf/floor/dirt,
+/area/caribbean)
+"bH" = (
+/obj/structure/filingcabinet/chestdrawer,
+/obj/roof/wood,
+/turf/floor/wood/alt/three,
 /area/caribbean)
 "bI" = (
 /obj/structure/wild/tree/dead_tree,
@@ -75,6 +79,11 @@
 	dir = 4
 	},
 /turf/floor/dirt,
+/area/caribbean)
+"cg" = (
+/obj/structure/curtain/leather,
+/obj/roof/wood,
+/turf/floor/wood/ship,
 /area/caribbean)
 "cw" = (
 /obj/structure/window/barrier/sandbag{
@@ -232,7 +241,7 @@
 /obj/structure/window/barrier/sandbag{
 	dir = 4
 	},
-/obj/item/weapon/gun/projectile/automatic/stationary/atgm/kornet,
+/obj/item/weapon/foldable/atgm/kornet,
 /turf/floor/trench,
 /area/caribbean)
 "fw" = (
@@ -353,6 +362,11 @@
 /obj/structure/vending/syria/armorgov,
 /turf/floor/trench,
 /area/caribbean)
+"gY" = (
+/obj/structure/closet/cabinet,
+/obj/roof/wood,
+/turf/floor/wood/alt/three,
+/area/caribbean)
 "hb" = (
 /obj/structure/window/barrier/sandbag/incomplete{
 	dir = 4
@@ -366,11 +380,6 @@
 "hi" = (
 /obj/structure/table/modern/table,
 /obj/item/weapon/globe,
-/turf/floor/wood/alt/three,
-/area/caribbean)
-"hj" = (
-/obj/structure/window/classic,
-/obj/roof/wood,
 /turf/floor/wood/alt/three,
 /area/caribbean)
 "hm" = (
@@ -613,7 +622,7 @@
 /turf/floor/trench,
 /area/caribbean)
 "lZ" = (
-/obj/structure/bed/chair,
+/obj/structure/window/classic,
 /obj/roof/wood,
 /turf/floor/wood/alt/three,
 /area/caribbean)
@@ -673,6 +682,13 @@
 /obj/structure/table/modern/table,
 /obj/structure/sign/map_board,
 /turf/floor/wood/alt/three,
+/area/caribbean)
+"nt" = (
+/obj/structure/window/barrier/sandbag{
+	dir = 8
+	},
+/obj/item/weapon/storage/backpack/heavyrucksack/atgm,
+/turf/floor/trench,
 /area/caribbean)
 "nz" = (
 /obj/roof,
@@ -856,7 +872,7 @@
 /area/caribbean)
 "re" = (
 /obj/roof/wood,
-/turf/floor/wood/alt/three,
+/turf/floor/plating/road,
 /area/caribbean)
 "rh" = (
 /obj/structure/window/barrier/sandbag,
@@ -928,11 +944,6 @@
 /area/caribbean)
 "st" = (
 /turf/wall/brick,
-/area/caribbean)
-"sv" = (
-/obj/roof/wood,
-/obj/covers/wood_wall/log,
-/turf/floor/dirt,
 /area/caribbean)
 "sB" = (
 /obj/roof,
@@ -1097,11 +1108,6 @@
 /obj/structure/simple_door/fence/picket,
 /turf/floor/dirt,
 /area/caribbean)
-"wG" = (
-/obj/roof/wood,
-/obj/structure/roof_support,
-/turf/floor/trench,
-/area/caribbean)
 "wQ" = (
 /obj/structure/window/barrier/sandbag{
 	dir = 4
@@ -1259,6 +1265,11 @@
 /obj/roof,
 /turf/floor/trench,
 /area/caribbean)
+"AU" = (
+/obj/structure/simple_door/wood,
+/obj/roof/wood,
+/turf/floor/wood/alt/three,
+/area/caribbean)
 "AX" = (
 /turf/floor/wood/alt/three,
 /area/caribbean)
@@ -1299,11 +1310,6 @@
 /obj/covers/roads/dirt,
 /obj/covers/roads/dirt,
 /turf/floor/dirt,
-/area/caribbean)
-"BE" = (
-/obj/structure/filingcabinet/chestdrawer,
-/obj/roof/wood,
-/turf/floor/wood/alt/three,
 /area/caribbean)
 "BZ" = (
 /obj/roof,
@@ -1439,6 +1445,11 @@
 /area/caribbean)
 "EK" = (
 /mob/living/simple_animal/chick,
+/turf/floor/dirt,
+/area/caribbean)
+"EN" = (
+/obj/roof/wood,
+/obj/covers/wood_wall/log,
 /turf/floor/dirt,
 /area/caribbean)
 "ET" = (
@@ -1766,6 +1777,11 @@
 /obj/structure/wild/tree/live_tree,
 /turf/floor/dirt,
 /area/caribbean)
+"KZ" = (
+/obj/structure/table/modern/table,
+/obj/roof/wood,
+/turf/floor/wood/alt/three,
+/area/caribbean)
 "Ln" = (
 /obj/covers/roads/dirt,
 /obj/structure/props/car_wreck/alt,
@@ -2052,11 +2068,6 @@
 /mob/living/simple_animal/chicken,
 /turf/floor/dirt,
 /area/caribbean)
-"Qw" = (
-/obj/structure/simple_door/wood,
-/obj/roof/wood,
-/turf/floor/wood/alt/three,
-/area/caribbean)
 "Qy" = (
 /obj/structure/window/barrier/sandbag{
 	dir = 4
@@ -2168,7 +2179,7 @@
 /area/caribbean)
 "SN" = (
 /obj/roof/wood,
-/turf/floor/plating/road,
+/turf/wall/brick,
 /area/caribbean)
 "SR" = (
 /turf/floor/plating/road/whiteline,
@@ -2211,9 +2222,9 @@
 /turf/floor/grass,
 /area/caribbean)
 "TC" = (
-/obj/structure/curtain/leather,
+/obj/structure/bed/chair,
 /obj/roof/wood,
-/turf/floor/wood/ship,
+/turf/floor/wood/alt/three,
 /area/caribbean)
 "TD" = (
 /obj/structure/window/barrier/sandbag{
@@ -2314,11 +2325,6 @@
 /obj/structure/window/barrier/sandbag/incomplete,
 /turf/floor/grass,
 /area/caribbean)
-"Vy" = (
-/obj/structure/filingcabinet,
-/obj/roof/wood,
-/turf/floor/wood/alt/three,
-/area/caribbean)
 "VF" = (
 /obj/structure/window/barrier/sandbag,
 /obj/structure/window/barrier/sandbag{
@@ -2392,9 +2398,9 @@
 /turf/floor/dirt,
 /area/caribbean)
 "XK" = (
-/obj/structure/table/modern/table,
 /obj/roof/wood,
-/turf/floor/wood/alt/three,
+/obj/structure/roof_support,
+/turf/floor/trench,
 /area/caribbean)
 "XL" = (
 /turf/floor/grass,
@@ -2506,8 +2512,9 @@
 /turf/floor/dirt,
 /area/caribbean)
 "ZB" = (
+/obj/structure/filingcabinet,
 /obj/roof/wood,
-/turf/wall/brick,
+/turf/floor/wood/alt/three,
 /area/caribbean)
 "ZC" = (
 /obj/structure/table/rack/shelf,
@@ -18511,7 +18518,7 @@ XL
 gQ
 Tq
 QI
-wG
+XK
 cc
 bA
 bA
@@ -19117,7 +19124,7 @@ oR
 JK
 yI
 QI
-wG
+XK
 qy
 oR
 Ww
@@ -20651,7 +20658,7 @@ Bf
 oR
 Zy
 bg
-Jc
+nt
 up
 bR
 oR
@@ -35652,7 +35659,7 @@ yR
 CH
 xC
 xC
-sv
+EN
 oR
 oR
 XL
@@ -35664,11 +35671,11 @@ XL
 XL
 oR
 oR
-ZB
-ZB
+SN
+SN
 ND
-ZB
-ZB
+SN
+SN
 XL
 XL
 DR
@@ -35866,11 +35873,11 @@ XL
 XL
 oR
 oR
-ZB
 SN
-SN
+re
+re
 er
-ZB
+SN
 DR
 RZ
 RZ
@@ -36069,10 +36076,10 @@ oR
 XL
 oR
 ND
-SN
-SN
+re
+re
 FR
-ZB
+SN
 RZ
 XL
 RZ
@@ -36270,11 +36277,11 @@ oR
 oR
 oR
 XL
-ZB
-JD
 SN
+JD
+re
 UU
-ZB
+SN
 tg
 oR
 RZ
@@ -36472,10 +36479,10 @@ XL
 XL
 oR
 oR
-ZB
+SN
 Ob
-SN
-SN
+re
+re
 ZV
 zz
 XL
@@ -36674,11 +36681,11 @@ oR
 oR
 oR
 nc
-ZB
+SN
 Bj
+re
+re
 SN
-SN
-ZB
 oR
 oR
 RZ
@@ -36873,15 +36880,15 @@ RZ
 RZ
 oR
 oR
-ZB
-ZB
-ZB
-ZB
-ZB
-Qw
-ZB
-ZB
-ZB
+SN
+SN
+SN
+SN
+SN
+AU
+SN
+SN
+SN
 oR
 RZ
 oR
@@ -37075,15 +37082,15 @@ RZ
 RZ
 oR
 oR
-ZB
+SN
 Mx
-XK
-ZB
-re
-re
-ZB
-re
-ZB
+KZ
+SN
+bv
+bv
+SN
+bv
+SN
 XL
 RZ
 oR
@@ -37277,15 +37284,15 @@ DR
 RZ
 oR
 oR
-hj
-re
-re
-Qw
-re
-re
-Qw
-re
-hj
+lZ
+bv
+bv
+AU
+bv
+bv
+AU
+bv
+lZ
 oR
 RZ
 oR
@@ -37479,15 +37486,15 @@ DR
 DR
 XL
 XL
-hj
-re
-re
-ZB
 lZ
-re
-ZB
-re
-ZB
+bv
+bv
+SN
+TC
+bv
+SN
+bv
+SN
 oR
 RZ
 oR
@@ -37681,15 +37688,15 @@ RZ
 RZ
 oR
 oR
-ZB
-lZ
-BE
-ZB
-XK
-BE
-ZB
-re
-ZB
+SN
+TC
+bH
+SN
+KZ
+bH
+SN
+bv
+SN
 oR
 RZ
 oR
@@ -37883,15 +37890,15 @@ RZ
 RZ
 oR
 iW
-ZB
+SN
 hZ
-ZB
-ZB
-ZB
-ZB
-ZB
-re
-ZB
+SN
+SN
+SN
+SN
+SN
+bv
+SN
 oR
 RZ
 oR
@@ -38085,15 +38092,15 @@ RZ
 RZ
 tg
 zz
-Qw
-re
-re
-re
-re
-re
-re
-re
-ZB
+AU
+bv
+bv
+bv
+bv
+bv
+bv
+bv
+SN
 oR
 RZ
 oR
@@ -38287,15 +38294,15 @@ RZ
 RZ
 XL
 iW
-ZB
-Qw
-ZB
-ZB
-ZB
-Qw
-ZB
-ZB
-ZB
+SN
+AU
+SN
+SN
+SN
+AU
+SN
+SN
+SN
 oR
 RZ
 oR
@@ -38489,15 +38496,15 @@ RZ
 RZ
 XL
 oR
+SN
+bv
+bv
+bv
+bv
+bv
+bv
 ZB
-re
-re
-re
-re
-re
-re
-Vy
-ZB
+SN
 oR
 RZ
 oR
@@ -38691,15 +38698,15 @@ RZ
 RZ
 oR
 oR
-hj
+lZ
 pn
 Mx
-XK
-re
-re
-re
-Vy
+KZ
+bv
+bv
+bv
 ZB
+SN
 oR
 RZ
 oR
@@ -38893,15 +38900,15 @@ DR
 DR
 XL
 oR
-hj
-re
 lZ
-re
-re
-re
-lZ
+bv
+TC
+bv
+bv
+bv
+TC
 pn
-hj
+lZ
 XL
 RZ
 oR
@@ -39095,15 +39102,15 @@ DR
 DR
 oR
 XL
+SN
 ZB
-Vy
-Vy
-re
-re
-re
-re
+ZB
+bv
+bv
+bv
+bv
 Mx
-ZB
+SN
 XL
 RZ
 oR
@@ -39297,15 +39304,15 @@ DR
 DR
 XL
 XL
-ZB
-ZB
-ZB
-ZB
-Qw
-ZB
-ZB
-ZB
-ZB
+SN
+SN
+SN
+SN
+AU
+SN
+SN
+SN
+SN
 XL
 RZ
 oR
@@ -39500,13 +39507,13 @@ DR
 oR
 oR
 oR
-ZB
+SN
 Wo
-re
-re
-re
 bv
-ZB
+bv
+bv
+gY
+SN
 oR
 oR
 RZ
@@ -39702,13 +39709,13 @@ DR
 oR
 oR
 XL
-hj
-re
-re
-re
-re
-re
-ZB
+lZ
+bv
+bv
+bv
+bv
+bv
+SN
 XL
 XL
 RZ
@@ -39890,13 +39897,13 @@ RZ
 oR
 oR
 oR
-ZB
-ZB
-hj
-ZB
-ZB
-ZB
-ZB
+SN
+SN
+lZ
+SN
+SN
+SN
+SN
 it
 it
 DR
@@ -39904,13 +39911,13 @@ DR
 oR
 XL
 XL
-ZB
-re
-re
-re
-re
-re
-ZB
+SN
+bv
+bv
+bv
+bv
+bv
+SN
 oR
 XL
 RZ
@@ -40092,13 +40099,13 @@ RZ
 RZ
 XL
 oR
-ZB
+SN
 UF
 lI
 Ng
 ZC
 ZI
-ZB
+SN
 vO
 it
 DR
@@ -40106,13 +40113,13 @@ DR
 oR
 XL
 oR
-ZB
-re
-re
-re
-re
-re
-ZB
+SN
+bv
+bv
+bv
+bv
+bv
+SN
 oR
 XL
 DR
@@ -40294,13 +40301,13 @@ RZ
 RZ
 oR
 XL
-ZB
-re
-re
-re
-re
+SN
+bv
+bv
+bv
+bv
 wy
-hj
+lZ
 mZ
 it
 DR
@@ -40308,13 +40315,13 @@ DR
 XL
 oR
 oR
-hj
-re
+lZ
+bv
 ET
 gM
-XK
-re
-ZB
+KZ
+bv
+SN
 XL
 XL
 DR
@@ -40496,13 +40503,13 @@ oR
 RZ
 XL
 XL
-ZB
-re
+SN
+bv
 PK
 rw
-re
-re
-ZB
+bv
+bv
+SN
 vO
 bX
 DR
@@ -40510,13 +40517,13 @@ DR
 XL
 oR
 XL
-ZB
-re
+SN
+bv
 hY
-lZ
-re
-re
-ZB
+TC
+bv
+bv
+SN
 XL
 oR
 DR
@@ -40698,13 +40705,13 @@ oR
 RZ
 XL
 oR
-ZB
-re
-re
+SN
+bv
+bv
 pM
-re
-re
-Qw
+bv
+bv
+AU
 DR
 DK
 DR
@@ -40712,13 +40719,13 @@ RZ
 oR
 oR
 oR
-ZB
-ZB
-ZB
-ZB
-ZB
-ZB
-ZB
+SN
+SN
+SN
+SN
+SN
+SN
+SN
 XL
 oR
 DR
@@ -40900,13 +40907,13 @@ oR
 DR
 XL
 oR
-ZB
+SN
 rd
-XK
-XK
-re
+KZ
+KZ
+bv
 wp
-ZB
+SN
 Wd
 it
 RZ
@@ -41102,13 +41109,13 @@ oR
 RZ
 oR
 oR
-ZB
+SN
 CY
-re
+bv
 Cg
-re
+bv
 Gp
-hj
+lZ
 EU
 it
 RZ
@@ -41304,13 +41311,13 @@ oR
 RZ
 oR
 XL
-ZB
+SN
 ez
-re
-re
-re
+bv
+bv
+bv
 lS
-ZB
+SN
 mZ
 it
 RZ
@@ -41506,13 +41513,13 @@ oR
 DR
 XL
 it
-ZB
-ZB
-ZB
-Qw
-ZB
-ZB
-ZB
+SN
+SN
+SN
+AU
+SN
+SN
+SN
 vO
 bX
 RZ
@@ -41711,7 +41718,7 @@ it
 oR
 la
 yR
-TC
+cg
 yR
 la
 it

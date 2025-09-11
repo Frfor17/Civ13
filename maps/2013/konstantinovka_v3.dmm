@@ -640,11 +640,6 @@
 /obj/roof/concrete,
 /turf/floor/plating/road,
 /area/caribbean)
-"kw" = (
-/obj/roof/wood,
-/obj/structure/roof_support,
-/turf/floor/wood/alt/three,
-/area/caribbean)
 "kx" = (
 /obj/structure/window/barrier/sandbag{
 	dir = 8
@@ -1258,10 +1253,9 @@
 /turf/floor/dirt,
 /area/caribbean)
 "ww" = (
+/obj/roof/wood,
 /obj/structure/roof_support,
-/obj/roof/wood,
-/obj/roof/wood,
-/turf/floor/plating/road,
+/turf/floor/wood/alt/three,
 /area/caribbean)
 "wy" = (
 /obj/structure/table/rack/shelf,
@@ -1972,11 +1966,6 @@
 /obj/roof/wood,
 /turf/floor/dirt,
 /area/caribbean)
-"JR" = (
-/obj/roof/wood,
-/obj/structure/roof_support,
-/turf/floor/plating/road,
-/area/caribbean)
 "JU" = (
 /obj/structure/window/barrier/sandbag/incomplete{
 	dir = 4
@@ -2500,6 +2489,11 @@
 "SB" = (
 /mob/living/simple_animal/pig_boar,
 /turf/floor/dirt,
+/area/caribbean)
+"SE" = (
+/obj/roof/wood,
+/obj/structure/roof_support,
+/turf/floor/plating/road,
 /area/caribbean)
 "SN" = (
 /obj/roof/wood,
@@ -36237,7 +36231,7 @@ XL
 Zy
 ND
 SN
-JR
+SE
 FR
 bv
 oR
@@ -38258,7 +38252,7 @@ AX
 AX
 AX
 AX
-kw
+ww
 AX
 ft
 bv
@@ -38655,7 +38649,7 @@ XL
 XL
 RZ
 rz
-ww
+iW
 bv
 Yy
 bv
@@ -39267,7 +39261,7 @@ AX
 we
 AX
 AX
-kw
+ww
 AX
 we
 BC
@@ -40276,7 +40270,7 @@ XL
 bv
 AX
 AX
-kw
+ww
 AX
 AX
 bv
